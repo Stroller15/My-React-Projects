@@ -58,3 +58,16 @@
   background-color: white;
   border: black 1px solid;
 }
+
+/* media query for mobile */
+
+@media screen and (max-width:360px) {
+  .home-timer {
+    font-size: 4rem;
+  }
+ 
+  .home-container {
+    max-height: 100vh;
+  }
+
+}
